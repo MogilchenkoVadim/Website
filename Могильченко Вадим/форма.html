@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+<title>Аксессуары</title>
+<html lang="rus">
+    <link rel="shortcut icon" href="https://avatars.mds.yandex.net/i?id=2cfb74a32810544ec63bb73e0f5c1af8eb5f15d1-9041932-images-thumbs&n=13">
+
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .table1
+        {
+            background-color: #88BDBC;
+            border: 3px solid white;
+            margin: auto;
+            width: auto;
+            height: auto;
+        }
+        .textarea1 
+        {
+        width:auto; 
+        height: auto;
+        font-size: 17px;
+        margin: 5px;
+        } 
+        .label1     /* ladel размер шрифта */
+        {
+            font-size: 20px;
+        }
+        .ul1     /* цвет фона+отклонение от стороны */
+        {
+            border-collapse:collapse ;
+            width: auto;
+            height: auto;
+            display: inline-block;
+        }
+        .legend1
+        {
+            font-size: 30px;
+            display: block;
+            max-width: 100%;
+            padding: 0;
+            margin-bottom: 0.5rem;
+        }
+        .div3
+        {
+            background-color: #88BDBC ;
+            height: auto;
+            width: auto;
+            margin: -20px;
+        }
+        .div4
+        {
+            background-color: white;
+            height: auto;
+            width: 103%;
+            margin: -10px;
+        }
+        .а5
+        {
+            text-decoration: none;
+            font-size: 20px;
+            color:  black;
+            margin: 10px;
+        }
+        .h2
+        {
+            padding: 5px 0;
+    
+        }
+        .a1
+        {
+            margin: 20px;  
+            text-decoration: none;
+            color:#112D32;
+        }
+        
+
+        </style>
+        <div class="div3">
+                <h2 class="h2"><a class="a1"  target="_blank" href="index.html">Главная</a>|<a class="a1" target="_blank" href="info aftor.html">Об авторе</a></h2>
+        </div>
+        <div class="div4"></div>
+        <table class="table1">
+            <tr>
+                <th>
+                    <form action="/" method="post" align="left">
+                        <ul  class="ul1"  >
+                        <legend class="legend1">Текстовые поля</legend>
+                        <label class="label1" for="one">Ваше имя: </label><input class="input1" required type="text" id="one"  placeholder="Имя"></input><br><style> .input1{font-size: 17px; height: 25px;}</style>     <!--вводим имя br перекидывает на новую строку -->
+                        <label class="label1" for="two">Ваш email:</label><input class="input2" required type="text" id="two" placeholder="Email"></input><br><style> .input2{margin: 5px; font-size: 17px; height: 25px;} </style>   <!--вводим email br перекидывает на новую строку -->
+                        <label class="label1" for="">Текст сообщния:</label><br><textarea class="textarea1" required placeholder="Введите ваше сообщение"></textarea><br>
+                        
+                        <legend class="legend1">Иные элементы управления формой</legend>
+                        <input class="input3" type="file" value="Выберите файл"> <style>.input3{margin: 10px;font-size: 15px;} </style><br>
+                        <label class="label1">Укажите дату <input class="input4" type="date"></label><br>  <style>.input4{margin: 10px;font-size: 19px;} </style>
+                        <label class="label2"><button type="reset" onclick="alert('Данные записаны')">Отправить</button></label> <style> .label2 {margin: 150px;padding: 0;font-size: 20px;}</style><br>
+                        
+                        </ul>
+                    </form>
+                </th>
+            </tr>>
+        </table>
+</body>
+</html>

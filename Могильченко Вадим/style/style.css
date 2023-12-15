@@ -1,0 +1,176 @@
+body {
+    background: #FFF;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px 0px;
+    margin-top: -17px;
+}
+
+#header {
+    background: #4F4A41;
+    width: 100%;
+    height: auto;
+    margin: 0px 0;
+}
+#container {
+   
+    background: #88BDBC;
+    margin: 0px 0px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+
+#navigation {
+    background: #6E6658;
+    width: 100%;
+    height: auto;
+    margin: 0px 0;
+}
+
+#sidebar {
+    background: #6E6658;
+    float: left;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+
+}
+
+#content {
+    background: #DCDCDC;
+    float: left;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+
+}
+
+#clear {
+    clear: both;
+}
+
+#footer {
+   background: #88BDBC;
+   width: 100%;
+   height: 40px;
+   margin: 0px 0;
+}
+.h2
+{
+    padding: 10px 0;
+    
+}
+.a1
+{
+    font-size: 25px;
+    margin: 20px;  
+    text-decoration: none;
+    color:black;
+}
+.img1
+{
+    width: 100%;
+    height: auto;
+}
+
+.image-container {
+    position: relative;
+ }
+ 
+ .image-container img {
+    max-width: 100%;
+    height: auto;
+ }
+ 
+ .text-overlay {
+    position: absolute;
+    bottom: 50%;
+    margin-left: 44%;
+    background-color: #88BDBC;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 35px;
+ }
+
+ .a2
+ {
+    font-size: 17px;
+    color: white;
+ }
+
+ .h3
+ {
+    font-size:  20px;
+    text-align: left;
+    margin: 0 20px;
+    font-weight: normal;
+ }
+ #author-image {
+    float: left;
+    height: auto;
+    width: auto;
+    border: 1px solid #d9d9d9;
+    margin-right:20px;
+    padding:5px;
+    margin: 0 20px;
+    }
+ #author-image {
+    float: left;
+    height: auto;
+    width: auto;
+    border: 1px solid #d9d9d9;
+    margin-right:20px;
+    padding:5px;
+    margin: 0 20px;
+    }
+
+    #author-image1 {
+        float: right;
+        height: auto;
+        width: auto;
+        border: 1px solid #d9d9d9;
+        margin-right:20px;
+        padding:5px;
+        margin: 0 20px;
+        }
+    
+    
+.h4
+{
+    font-size: 30px;
+}   
+.h5
+{
+    text-align: left;
+    margin: 20px;
+} 
+.li1
+{
+    text-align: left;
+    margin: 0 35px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.li2
+{
+    text-align: left;
+    margin: 0 15px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.img2
+{
+    height: auto;
+    width: auto;
+}
+
+.h6
+{
+    text-align: center;
+    margin-left: 15px;
+    font-size: 20px;
+}
